@@ -1,36 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formularios</title>
-    
+
 </head>
+
 <body>
     <h2>Formularios</h2>
     <form action="">
+
         <div class="">
-       <label for="nome">Nome: </label>
-       <input type="text">
-       </div>
+            <label for="nome">Nome: </label>
+            <input type="text">
+        </div>
+
         <br>
         <div class="">
-       <label for="idade">Idade: </label>
-       <input type="number" min="0" max="120">
-       </div>
+            <label for="idade">Idade: </label>
+            <input type="number" min="0" max="120">
+        </div>
+        <br>
+
+        <div class="">
+            <label for="usuario">Usuario: </label>
+            <input type="text">
+        </div>
+        <br>
+
+        <div class="">
+            <label for="senha">Senha: </label>
+            <input type="password">
+        </div>
+        <br>
+
+        <div class="">
+            <label for="data">Data do evento: </label>
+            <input type="datetime-local">
+        </div>
+        <br>
+
+        <div class="">
+            <label for="">Telefone: <input type="tel" required placeholder="(xx) xxxx-xxxx"></label>
+        </div>
+        <br>
+
+        <div class="">
+            <label for="email">Email: <input type="email" required></label>
+        </div>
+        <br>
+
+        <div class="">
+            <label for="peso">Peso: <input type="number" min="0" max="200" step="10"></label>
+        </div>
+        <br>
+
+        <div class="">
+            <label for="volume">Volume:<input type="range" min="0" max="100" step="20"></label>
+        </div>
+        <br>
+
+        <!--Multiplas escolhas-->
+        <div class="">
+            <fieldset>
+                <legend>Estado Civil</legend>
+
+                <p>
+                    <label>
+                        <input type="radio" name="est_civil" value="solteiro">
+                        Solteiro
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        <input type="radio" name="est_civil" value="casado">
+                        Casado
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        <input type="radio" name="est_civil" value="divorciado">
+                        Divorciado
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        <input type="radio" name="est_civil" value="viuvo">
+                        Viúvo
+                    </label>
+                </p>
+
+            </fieldset>
+        </div>
+        <br>
+
+        <div class="">
+            <fieldset>
+                <legend>Preciso comprar quais frutas?</legend>
+
+                <p>
+                    <label>
+                        <input type="checkbox" name="fruta1" value="uva">
+                        Uva
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        <input type="checkbox" name="fruta2" value="morango">
+                        Morango
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        <input type="checkbox" name="fruta3" value="pera">
+                        Pera
+                    </label>
+                </p>
+
+                <p>
+                    <label>
+                        <input type="checkbox" name="fruta4" value="maca">
+                        Maça
+                    </label>
+                </p>
+
+            </fieldset>
+        </div>
         <br>
         <div class="">
-       <label for="usuario">Usuario: </label>
-       <input type="text">
-       </div>
-        <br>
-        <div class="">
-       <label for="senha">Senha: </label>
-       <input type="password">
-       </div>
-       <br>
-    <button type="submit">Enviar</button>
+            <label for="">
+                Deixe sua sugestão
+                <textarea cols="10" rows="2"></textarea>
+            </label>
+        </div>
+        <button type="submit">Enviar</button>
     </form>
-    
+
 </body>
+
 </html>
