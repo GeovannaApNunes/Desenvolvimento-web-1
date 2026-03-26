@@ -1,8 +1,50 @@
+*{
+    color: rgb(226, 17, 226);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
 h1{
-    background-color: rgb(98, 173, 98);
+    background-color: rgb(61, 72, 226);
     color: white;
 }
 
 img{
     width: 100%;
+}
+
+.p1{
+    text-align: center;
+}
+
+.p2{
+    text-align: end;
+}
+
+.p3{
+    text-align: justify;
+    width: 200px;
+}
+
+#fonte{
+    font-size: 22px;
+}
+
+p.margem{
+    margin: 100px 50px 100px 30px;
+}
+
+p.borda{
+    border-style: solid;
+    border-color: aqua;
+    border-width: 10px;
+    border-radius: 10px;
+}
+
+p.padding{
+    padding: 10px;
+}
+
+p.outline{
+    outline: auto;
 }
