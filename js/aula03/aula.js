@@ -23,10 +23,11 @@ do{
 }while(c<5); */
 
 console.log(`WHILE FATORIAL`)
-let resultado=0;
-let valor = 4;
+let resultado=1;
+let valor = 5;
 
 for(valor; valor>0; valor--){
     resultado=resultado*valor;
-    console.log(``)
 }
+
+  console.log(`O valor do fatorial é: ${resultado}`)
